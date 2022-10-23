@@ -51,7 +51,6 @@ function TodoList() {
     
     return (
         <div>
-            <a style={{fontSize:'30px', display:'flex', width:'100%',color:'white', background:'black', justifyContent:'center', align:'center', marginBottom: 15}}>TodoList</a>
             <div>
                 <Stack direction="row" spacing={2} justifyContent="center" alignItems="center">
                     <TextField type="text" onChange={inputChanged} placeholder="Description" name="description" value={todo.description}/>
